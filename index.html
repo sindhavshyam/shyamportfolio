@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="left">
+                <img src="SHYAM.jpg" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#page1">HOME</a></li>
+                    <li><a href="#page4">PROJECT</a></li>
+                    <li><a href="#page2">SERVICES</a></li>
+                    <li><a href="#page3 ">CONTACT US</a></li>
+                </ul>
+                <i class="ri-menu-3-line" id="menu"></i>
+            </div>
+        </nav>
+        <div class="page1" id="page1">
+            <div class="inner-div">
+                <div class="left-inner">
+                    <p>hi,my name is <span class="hed">shyam</span><br>
+                        and i am web<br>
+                        <span id="element"></span>
+                    </p><br>
+                    <button>DOWNLOAD CV</button>
+                </div>
+                <div class="right-inner">
+                    <div class="logo"></div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="page2" id="page2">
+            <div class="header">
+                <h1>services</h1>
+            </div>
+            <div class="info-1">
+                <div class="box">
+                    <img src="web developer.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <h1>web developer<br>(2023-2024)</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione suscipit a, nobis
+                        repudiandae laboriosam libero.atum! Voluptatum
+                        dolores inventore cupiditate ducimus laborum, voluptas iste quae sequi aut doloribus velit
+                        incidunt nobis accusamus tempora odio? Tenetur, alias. Deserunt exercitationem.</p>
+                </div>
+            </div>
+            <div class="info-2">
+                <div class="box">
+                    <img src="app developer.jpg" alt="">
+
+                </div>
+                <div class="discription">
+                    <h1>app developer<br>(2025-2027)</h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing a, nobis repudiandae laboriosam libero.
+                        Voluptatum labore ipsa accusantium eum provident debitis molestiae sint! Tempore neque impedit
+                        natus bes inventore cupiditate ducimus
+                        laborum, voluptas iste quae sequi aut doloribus velit incidunt nobis accusamus tempora odio?
+                        Tenetur, alias. Deserunt exercitationem.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="page3" id="page3">
+            <div class="contact-form">
+                <h1>contact me</h1>
+                <div class="name-info">
+                    <div class="f-name">
+                        <lable> first name :</lable><br>
+                        <input class="text-field" type="text" placeholder="enter yout first name">
+                    </div>
+                    <div class="l-name">
+                        <lable> last name :</lable><br>
+                        <input class="text-field" type="text" placeholder="enter yout first name">
+                    </div>
+                </div>
+                <div class="inn-div">
+                    <div class="phone">
+                        <lable>phone :</lable><br>
+                        <input class="text-field1 type=" number" placeholder="enter your mobile number">
+                    </div>
+                    <div class="e-mail">
+                        <lable>e-mail :</lable><br>
+                        <input class="text-field1 type=" number" placeholder="enter your mobile email">
+                    </div>
+                </div>
+                <div class="btn">
+                    <button>submit</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="page4" id="page4">
+            <div class="page">
+                <h1>404 error</h1>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['WEB DEVELOPER', 'GRAPHIC DESINER', 'APP DEVELOPER'],
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+<script src="script.js"></script>
+
+</html>

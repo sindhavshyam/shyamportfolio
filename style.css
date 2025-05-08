@@ -1,0 +1,540 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+.main{
+    /* background-image: linear-gradient(to right,red,yellow); */
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+}
+/* html,body{
+    overflow: hidden;
+} */
+
+nav{
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: rgb(9, 14, 60);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left img{
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    
+}
+ul li a:hover{
+    border-bottom: 2px solid white;
+}
+i{
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
+.page1{
+    height: 100%;
+    width: 80%;
+    /* background-color: aqua; */
+    border-bottom: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    
+}
+.inner-div{
+    height: 80vh;
+    width: 80vw;
+    /* background-color: rgb(6, 5, 91); */
+    margin: auto;
+    display: flex;
+    
+}
+.left-inner{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+.right-inner{
+    height: 100%;
+    width: 50%;
+    /* background-image: url("png.png");
+    background-position: center;
+    background-size: cover; */
+
+    
+    /* background-color: rgb(132, 9, 103); */
+    display: block;
+    justify-content: center;
+}
+.logo{
+    height: 60%;
+    width: 100%;
+    background-image: url("png.png");
+    background-position: cover;
+    background-size: cover;
+}
+.left-inner{
+    font-size: 35px;
+    font-family: Merriweather;
+    text-transform: capitalize;
+    /* padding: 30px; */
+    line-height: 70px;
+    /* margin-top: 40px; */
+    padding: 60px 30px;
+    
+}
+.hed{
+    font-family: Merriweather;
+    font-weight: 900;
+    color: rgb(21, 0, 255)   
+}
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+button:hover{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid rgb(247, 244, 244);
+    background-color: red;
+}
+.page2{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    text-align: center;
+    font-size: large;
+    margin: 30px;
+    font-weight: 900;
+    font-family: Merriweather;
+    text-transform: uppercase;
+}
+.info-1{
+    height: 50vh;
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+    gap: 30px;
+    
+}
+.box{
+    height: 100%;
+    width: 45%;
+    /* background-color: aqua; */
+}
+.box img{
+    object-fit: contain;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.discription{
+    height: 100%;
+    width: 55%;
+    /* background-color: rgb(4, 21, 21); */
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 30px;
+    
+}
+.discription>p{
+    line-height: 30px;
+    /* padding-left: 30px; */
+}
+.info-2{
+    height: 50vh;
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+    gap: 30px;
+}
+.page3{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000000;
+}
+.contact-form>h1{
+    color: white;
+    text-transform: capitalize;
+    font-family: Merriweather;
+}
+.contact-form{
+    height: 600px;
+    width: 800px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+.contact-form h1{
+    text-align: center;
+    margin: 50px;
+    text-transform: capitalize;
+
+}
+.name-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.inn-div{
+    margin: 0px;
+    padding: 0px;
+}
+lable{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.text-field{
+    height: 50px;
+    width: 340px;
+    margin: 20px 0px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.contact-form>.phone{
+    margin: 0px 40px;
+}
+.contact-form>.e-mail{
+    margin: 0px 40px;
+}
+    /* .phone{
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px;
+    } */
+    
+.text-field1{
+    height: 50px;
+    width: 90%;
+    margin: 20px 0px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.contact-form>.e-mail{
+    width: 90%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 42px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    font-weight: 900;
+    font-family: Merriweather;
+    margin: 20px;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* media quary  for responsible website*/
+@media(max-width:768px){
+    html,body{
+        /* overflow-x: hidden; */
+    }
+    .main{
+        
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+
+    }
+    
+    nav ul{
+        height: 85vh;
+        width: 100%;
+        top: 100px;
+        background-color: black;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: -100%;
+        display: block;
+
+        
+    }
+    nav ul li{
+        padding: 20px 0px;
+        margin: 0px;      
+        border: 2px solid white;
+        margin: 20px 0px;
+        border-radius: 20px;
+    }
+    nav ul li a:hover{
+        border-bottom: none;
+    }
+    i{
+        display: block;
+        
+    }
+    nav ul li {
+        display: block;
+    }
+    .page1{
+        height: 110vh   ;
+        width: 100%;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;*/
+    } 
+    .page1 .inner-div{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .left-inner{
+        height: auto;
+        width: 100%;
+        font-size: 5vw;
+        padding: 0px 0px;
+        
+    }
+    button{
+        margin: 0px;
+    }
+    .right-inner{
+        height: 100%;
+        width: 100%;
+    }
+    .logo{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .page2{
+        height: 250vh;
+        width: 100%;
+        margin: auto;
+        /* padding-bottom: 30px; */
+        border-bottom: 2px solid black;
+        
+    }
+    .page2 .header{
+        font-size: 2.5vw;
+    }
+    .box{
+        height: 100%;
+        width: 70%;
+        /* background-color: aqua; */
+    }
+    .page2 .info-1{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .discription p{
+        font-size: 2vw;
+        line-height: 15px;
+        /* line-height:0px; */
+    }
+    .page2 .info-2{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page3{
+        height: 120vh;
+        width: 100%;
+        /* margin: auto; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        border-bottom: 2px solid #000000;
+    }
+    .contact-form{
+        height: 100%;
+        width: 80%;
+        background-color: transparent;
+        border-radius: 0px;
+        /* -webkit-backdrop-filter: blur(30px); */
+    }
+    lable{
+        color: #000;
+    }
+    .name-info{
+        width: 88%;
+        color: #000;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 40px; */
+        margin: 0px -45px ;
+    }
+    .text-field{
+        height: 30px;
+        width: 50vw;
+        margin: 20px 0px;
+        font-size: 2.5vw;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        color: #000;
+    }
+    .text-field1{
+        margin: 20px 0px;
+        width: 50vw;
+    }
+    
+    
+}
+@media(max-width:425px){
+    .page1{
+        height: 100vh   ;
+        width: 100%;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;*/
+    } 
+    .right-inner{
+        height: auto;
+        width: 200px;
+    }
+    .logo{
+        min-height: 150px; 
+        min-width: 150px;
+        object-fit: cover;
+    }
+    .page2{
+        height: 180vh;
+        width: 100%;
+        margin: auto;
+        /* padding-bottom: 30px; */
+        border-bottom: 2px solid black;
+        
+    }
+    .discription{
+        font-size: 3vw;
+        /* line-height:0px; */
+    }
+    .discription>p{
+        font-size: 2.5vw;
+    }
+    .page3{
+        height: 120vh;
+        width: 100%;
+        /* margin: auto; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        border-bottom: 2px solid #000000;
+    }
+    .contact-form{
+        height: 100%;
+        width: 100%;
+        /* background-color: transparent;
+        border-radius: 0px;
+        -webkit-backdrop-filter: blur(30px); */
+    }
+    lable{
+        color: #000;
+        margin: 20px 0px;
+    }
+    .name-info{
+        width: 100%;
+        color: #000;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px;
+        
+    }
+    .f-name {
+        height: 40px;
+        font-size: 2vw;
+    }
+    .phone{
+        width: 100%;
+        /* display: block; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        margin: 0px 42px;
+    }
+    .text-field{
+        height: 30px;
+        width: 200px;
+        font-size: 4vw;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        color: #000;
+        /* margin: 0px auto; */
+        margin: 25px 0px;
+    }
+    .phone{
+        margin: 0px 90px;
+    }
+    .e-mail{
+        width: 100%;
+        margin: 0px 90px;
+    }
+    .text-field1{
+        font-size: 3.5vw;
+        width: 200px;
+        
+        
+    }
+}
