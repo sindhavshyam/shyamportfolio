@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+@font-face {
+    font-family: "Chonky Bunny";
+    src: url("./Chonky\ Bunny.ttf");
+}
+@font-face {
+    font-family: "Soul Billani";
+    src: url("./SoulBillani.otf");
+}
+html,
+body {
+    /* height: 100%; */
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* position: fixed; */
+}
+
+.nav h3 {
+    font-size: 2.5vw;
+    font-family: "Soul Billani";
+    text-align: center;
+    color: aqua;
+
+}
+
+button {
+    padding: 1vw 2vw;
+    font-size: 1.5vw;
+    color: #000;
+    background-color: #33ffec;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px #33ffec;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #33ffec; */
+    text-align: center;
+    padding-top: 1vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.page1 h1 {
+    font-size: 4vw;
+    font-family: "Soul Billani";
+    color: #33ffec;
+}
+
+.logo {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    /* background-color: #33ffec; */
+    border: 2px solid #33ffec;
+    box-shadow: 0px 0px 100px #33ffec;
+    margin-top: 3vw;
+    overflow: hidden;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page2 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lines {
+    height: 18vh;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 2vw;
+    /* white-space: nowrap; */
+}
+
+.lines .line {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vw;
+    gap: 2vw;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.lines .line2 {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vw;
+    gap: 2vw;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.lines .line h1 {
+    font-family: "Soul Billani";
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+
+.lines .line2 h1 {
+    font-family: "Soul Billani";
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+
+@keyframes anime {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.about {
+    width: 50%;
+    height: auto;
+    /* background-color: aliceblue; */
+    text-align: center;
+    padding: 3vw;
+}
+
+.about>h3 {
+    font-size: 3vw;
+    padding-top: 2vw;
+    font-family: "chonky bunny";
+}
+
+#red {
+    color: rgb(255, 0, 0);
+}
+
+#blue {
+    color: #33ffec;
+}
+
+#pink {
+    color: #ff00d0;
+}
+
+#zinc {
+    color: #55ff00;
+}
+
+.buttons {
+    margin-bottom: 2vw;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.helo {
+    background-color: #58C2F9;
+    box-shadow: none;
+    border-color: 2px solid black;
+    font-family: "Soul Billani";
+}
+
+.repo {
+    background-color: #FA5A5A;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    font-family: "Soul Billani";
+    border-color: 2px solid black;
+}
+.repo i{
+    font-size: 3vw;
+}
+
+.page3 {
+    /* min-height: 100vh; */
+    width: 100%;
+    padding: 6vw;
+    background-color: rgb(32, 32, 32);
+}
+
+.page3 h1 {
+    font-size: 4vw;
+}
+
+.page3 span {
+    color: #58C2F9;
+}
+
+.page3 h2 {
+    font-size: 2vw;
+}
+
+.skills {
+    height: auto;
+    width: 100%;
+    /* background-color: #FA5A5A; */
+}
+
+.heading {
+    width: fit-content;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 1vw;
+    font-family: "Soul Billani";
+    font-size: 2vw;
+
+}
+
+.skill {
+    margin-top: 2vw;
+    display: flex;
+}
+
+.img {
+    margin: 1vw;
+    border-radius: 5px;
+    height: 4vw;
+    width: 4vw;
+    background-color: #fff;
+    overflow: hidden;
+}
+.sign{
+    padding: 2vw;
+    font-family:"chonky bunny";
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.sign i{
+    color: #FA5A5A;
+}
+@media (max-width:600px) {
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        /* position: fixed; */
+    }
+
+    .nav h3 {
+        font-size: 6vw;
+        font-family: "Soul Billani";
+        text-align: center;
+        color: aqua;
+
+    }
+
+    button {
+        padding: 2vw 4vw;
+        font-size: 4vw;
+        color: #000;
+        background-color: #33ffec;
+        outline: none;
+        border: 2px solid black;
+        border-radius: 50px;
+        box-shadow: 0px 0px 10px #33ffec;
+    }
+
+    .page1 {
+        height: 75vh;
+        width: 100%;
+        /* background-color: #33ffec; */
+        text-align: center;
+        padding-top: 1vw 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .page1 h1 {
+        margin: 10vw;
+        font-size: 13vw;
+        font-family: "Soul Billani";
+        color: #33ffec;
+    }
+
+    .logo {
+        height: 70vw;
+        width: 70vw;
+        border-radius: 50%;
+        /* background-color: #33ffec; */
+        border: 2px solid #33ffec;
+        box-shadow: 0px 0px 70px #33ffeb85;
+        margin-top: 20vw;
+    }
+
+    .page2 {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lines {
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        /* background-color: blue; */
+        margin-top: 1vw;
+        /* white-space: nowrap; */
+    }
+
+    .lines .line {
+        white-space: nowrap;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* padding: 1.5vw; */
+        gap: 10vw;
+        /* animation-name: anime;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; */
+    }
+
+    .lines .line2 {
+        /* white-space: nowrap; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        padding: 1.5vw;
+        gap: 10vw;
+        /* animation-name: anime;
+        animation-duration: 5s;
+        animation-direction: reverse;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; */
+    }
+
+    .lines .line h1 {
+        /* font-family: "Soul Billani"; */
+        font-size: 15vw;
+        /* text-transform: uppercase; */
+    }
+
+    .lines .line2 h1 {
+        /* font-family: "Soul Billani"; */
+        font-size: 15vw;
+        /* text-transform: uppercase; */
+    }
+
+    .about {
+        width: 100%;
+        height: auto;
+        /* background-color: aliceblue; */
+        text-align: center;
+        padding: 8vw;
+    }
+
+    .about>h3 {
+        font-size: 10vw;
+        padding-top: 9vw;
+        /* font-family: "chonky bunny"; */
+    }
+
+    /* #red {
+        color: rgba(255, 0, 0, 0.654);
+    }
+
+    #blue {
+        color: #33ffec;
+    }
+
+    #pink {
+        color: #ff00d0;
+    }
+
+    #zinc {
+        color: #55ff00;
+    } */
+
+    .buttons {
+        margin-bottom: 8vw;
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+
+    .helo {
+        background-color: #58C2F9;
+        box-shadow: none;
+        border-color: 2px solid black;
+        font-size: 5vw;
+        font-family: "Soul Billani";
+    }
+
+    .repo {
+        background-color: #FA5A5A;
+        box-shadow: none;
+        font-size: 5vw;
+        border-color: 2px solid black;
+        font-family: "Soul Billani";
+    }
+    .repo i{
+        font-size: 8vw;
+    }
+
+    .page3 {
+        /* min-height: 100vh; */
+        width: 100%;
+        padding: 10vw;
+        background-color: rgb(32, 32, 32);
+    }
+
+    .page3 h1 {
+        font-size: 8vw;
+    }
+
+    /* .page3 span {
+        color: #58C2F9;
+    } */
+
+    .page3 h2 {
+        font-size: 6vw;
+    }
+
+    .skills {
+        height: auto;
+        width: 100%;
+        /* background-color: #FA5A5A; */
+    }
+
+    .heading {
+        width: fit-content;
+        padding: 3vw 7vw;
+        border-radius: 10px;
+        border: 1px solid rgb(82, 82, 82);
+        margin-top: 5vw;
+        font-size: 5vw;
+        font-family: "Soul Billani";
+
+    }
+
+    .skill {
+        margin-top: 5vw;
+        display: flex;
+    }
+
+    .img {
+        margin: 5vw;
+        border-radius: 5px;
+        height: 11vw;
+        width: 11vw;
+        background-color: #fff;
+    }
+
+}
